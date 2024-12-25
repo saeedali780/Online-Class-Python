@@ -1,4 +1,9 @@
-print("Hello world")
+# print("Hello world")
 
 #Arthmetic op
-age: int = 17
+age: int = 18
+ageIncreased: int = 3
+ageResult: int = age - ageIncreased
+print(age)
+
+# age is 17

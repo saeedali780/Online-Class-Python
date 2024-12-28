@@ -45,8 +45,17 @@
 
 # print(result)
 
-juice: str = "available"  
-water : str = "availble"
+# juice: str = "available"  
+# water: str = "availble"
 
-result = water != juice 
-print(result)
+# result = water != juice 
+# print(result)
+
+
+num1: int = 2
+num2: int = 5
+num3: int = 3
+num4: int = 7
+
+# print(num1 == num2 and num3 == num4 )#>> True?? humari dono conditions true
+print(num1 == num2 or num3 == num4 )#>> True?? humari dono conditions 1 true >> False

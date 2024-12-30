@@ -61,5 +61,20 @@
 # print(num1 == num2 or num3 == num4 )#>> True?? humari dono conditions 1 true >> False\
 
 
-a: bool = True
-print(a)
+# a: bool = False
+# print(not a)
+
+# num1: int = 2
+# num2: int = 2
+# num3: int = 3
+# num4: int = 7
+# print(num1 != num2) #// >> False >>True
+
+# print(not num1 == num2) # True ?? False
+# nickName = "Jerry" #string
+# myName: str = "Saeed"
+# print(myName and nickName) #True wrna False
+
+string = "String"
+number = 2
+print(string and number)

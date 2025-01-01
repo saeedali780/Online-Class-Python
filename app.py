@@ -75,6 +75,33 @@
 # myName: str = "Saeed"
 # print(myName and nickName) #True wrna False
 
-string = "String"
-number = 2
-print(string and number)
+# string = "String"
+# number = 2
+# boolean = False
+# print(string and number and boolean)
+
+# studentName1 = "Hooria"
+# studentName2 = "Arshad"
+# print(not studentName1 == studentName2)
+
+# myName = "Saeed"
+# nickName = "Jerry"
+
+
+# print( True == False or 2 ==3 ) 
+# student1 = "Hooria"
+# student2 = "kainat"
+# print( student1 == "Assigment Complete" and student2 == "Assigment Complete")
+
+# print(2 == 2 and "Saeed" == "Saeed" and 2 + 3 )
+
+num1: int = 10
+num2: int = 5
+value: bool = False
+print(value)
+if num1 < num2:
+    value = True
+    print(value)
+    print("BHAI CONDITION MATCH HOGAI IF BLOCK CHAL RHA HON")
+else:
+  print("bhai condition False hogai ELSE block chal rha hon")

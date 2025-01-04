@@ -104,11 +104,13 @@
 # else:
 #   print(result)
 
-myName: str = "Saeed"
-nickName: str = "Jerry"
+# myName: str = "Saeed"
+# nickName: str = "ali"
 
-if myName == nickName:
-    print(f"condition match {myName} {nickName}")
-else:
-    print(f"condition match nh hoi {myName} equal nh hai {nickName} ke")
-  
+# if myName == nickName:
+#     print(f"condition match {myName} {nickName}")
+# else:
+#     print(f"condition match nh hoi {myName} equal nh hai {nickName} ke")
+
+# enterName = input("Enter Your Name: ")  
+# print("Congrats your name is:", enterName)

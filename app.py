@@ -80,8 +80,8 @@
 # boolean = False
 # print(string and number and boolean)
 
-# studentName1 = "Hooria"
-# studentName2 = "Arshad"
+# studentName1 = "saeed"
+# studentName2 = "jerry"
 # print(not studentName1 == studentName2)
 
 # myName = "Saeed"
@@ -89,19 +89,26 @@
 
 
 # print( True == False or 2 ==3 ) 
-# student1 = "Hooria"
-# student2 = "kainat"
+# student1 = "saeed"
+# student2 = "jerry"
 # print( student1 == "Assigment Complete" and student2 == "Assigment Complete")
 
 # print(2 == 2 and "Saeed" == "Saeed" and 2 + 3 )
 
-num1: int = 10
-num2: int = 5
-value: bool = False
-print(value)
-if num1 < num2:
-    value = True
-    print(value)
-    print("BHAI CONDITION MATCH HOGAI IF BLOCK CHAL RHA HON")
+# num1: int = 3
+# num2: int = 5
+# result: bool = True
+# if num1 > num2:
+#     result = False
+#     print(result)
+# else:
+#   print(result)
+
+myName: str = "Saeed"
+nickName: str = "Jerry"
+
+if myName == nickName:
+    print(f"condition match {myName} {nickName}")
 else:
-  print("bhai condition False hogai ELSE block chal rha hon")
+    print(f"condition match nh hoi {myName} equal nh hai {nickName} ke")
+  

@@ -115,6 +115,6 @@
 # enterName = input("Enter Your Name: ")  
 # print("Congrats your name is:", enterName)
 
-enterFatherName = input("Enter your Father's: ")
+# enterFatherName = input("Enter your Father's: ")
 
-print(f"Oh to Ap {enterFatherName} ki Beti hai")
+# print(f"Oh to Ap {enterFatherName} ki Beti hai")

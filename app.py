@@ -115,6 +115,37 @@
 # enterName = input("Enter Your Name: ")  
 # print("Congrats your name is:", enterName)
 
-# enterFatherName = input("Enter your Father's: ")
+# enterFatherName = input("Enter your Father's Name: ")
 
 # print(f"Oh to Ap {enterFatherName} ki Beti hai")
+
+# timeOfTheDay= ["Monday","Tuesday","Wednesday","Thursday"] #array list
+# print(timeOfTheDay)
+# print(timeOfTheDay[1])
+# print(timeOfTheDay[2])
+# print(timeOfTheDay[3])
+
+#results time is money
+
+#Assigment =====01======
+
+# myName = input("Enter Your Name: ")
+# print(f"To tumhra name {myName} ha")
+
+# playGame = input("Ap Konsi Game Khelna Chahty Ho? : ")
+# selectTeamName= input("Enter Team Name: ")
+# captain = input("Enter Captain Name: ")
+
+# print(f"Apki Game ka Name {playGame} ha or apki Team ka Name {selectTeamName} ha or is team ka Captain {captain} Hai")
+
+# num1 = 70
+
+# if num1 < 10:
+#   print("hello")
+# elif num1 == 70:
+#   print("Hey")
+
+arr = [12,"Saeed",True]
+print(arr[0])
+print(arr[1])
+print(arr[2])

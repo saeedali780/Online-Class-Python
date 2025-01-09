@@ -145,7 +145,23 @@
 # elif num1 == 70:
 #   print("Hey")
 
-arr = [12,"Saeed",True]
-print(arr[0])
-print(arr[1])
-print(arr[2])
+# arr = [
+#     "Ali", "Ahmed", "Sara", "Zara", "Omar", "Hina", "Nida", "Ayesha", "Usman", "Kamran",
+#     "Saeed", "Farhan", "Sana", "Hassan", "Hafsa", "Zain", "Tariq", "Bilal", "Asma", "Ibrahim",
+#     "Khalid", "Rehan", "Mariam", "Noman", "Arsalan", "Amna", "Salman", "Tuba", "Hamza", "Dania",
+#     "Fatima", "Umar", "Anas", "Kiran", "Aliya", "Fahad", "Junaid", "Shahid", "Ishaq", "Haleema",
+#     "Shan", "Adil", "Rubina", "Rida", "Aqsa", "Saima", "Adeel", "Qasim", "Naeem", "Haris",
+#     "Mehmood", "Shazia", "Waseem", "Sidra", "Hira", "Adnan", "Mobeen", "Rana", "Uzair", "Naveed",
+#     "Hammad", "Rana", "Aamir", "Sundas", "Iqra", "Jawad", "Saad", "Irfan", "Rukhsar", "Shafaq",
+#     "Shiza", "Nimra", "Aqib", "Basit", "Raheel", "Zeeshan", "Dawood", "Hussain", "Fizza", "Zoya",
+#     "Babar", "Sameer", "Talha", "Lubna", "Faraz", "Zunaira", "Urooj", "Shumaila", "Erum", "Nashit",
+#     "Arfa", "Anaya", "Yasir", "Raza", "Waqar", "Ammar", "Taimoor", "Usama", "Tanveer", "Waqas"
+# ]
+
+# print(arr[10])
+
+myStudents = ["Saeed","Kainat Fatima","Shehzad","Rizwan","Minahil","Kamran","Hooriya"]
+
+for student in myStudents:
+  print(student)
+  

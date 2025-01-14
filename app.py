@@ -160,8 +160,8 @@
 
 # print(arr[10])
 
-myStudents = ["Saeed","Kainat Fatima","Shehzad","Rizwan","Minahil","Kamran","Hooriya"]
-
-for student in myStudents:
-  print(student)
-  
+myStudents = ["Saeed","Jerry","Shehzad","Rizwan","moho","Kamran","hammad"]
+#6 #0 #1 #2
+for i in myStudents:
+  print(i,end=",")
+# print(myStudents)

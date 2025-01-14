@@ -160,8 +160,11 @@
 
 # print(arr[10])
 
-myStudents = ["Saeed","Jerry","Shehzad","Rizwan","moho","Kamran","hammad"]
-#6 #0 #1 #2
-for i in myStudents:
-  print(i,end=",")
-# print(myStudents)
+myStudents = ["Saeed","Jerry","Shehzad","Rizwan","Saeed","moho","Kamran","hammad","Saeed"]
+
+for name in myStudents:
+    if name == "Saeed":
+        print(name)
+        break
+        
+    

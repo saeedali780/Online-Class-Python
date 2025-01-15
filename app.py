@@ -160,11 +160,24 @@
 
 # print(arr[10])
 
-myStudents = ["Saeed","Jerry","Shehzad","Rizwan","Saeed","moho","Kamran","hammad","Saeed"]
+# myStudents = ["Saeed","Jerry","Shehzad","Rizwan","Saeed","moho","Kamran","hammad","arshad"]
 
-for name in myStudents:
-    if name == "Saeed":
-        print(name)
-        break
-        
-    
+# for name in myStudents:
+#     print(name)
+     
+# num1 = 0
+
+# while num1 <= 10:
+#     print(num1)
+#     num1 = num1+1
+
+myStudents = ["Saeed","Jerry","Shehzad","Rizwan","Saeed","moho","Kamran","hammad","arshad"]
+
+print(len(myStudents))
+
+
+# count = 0
+
+# while count < len(myStudents):
+#       print(myStudents[count])
+#       count = count + 1

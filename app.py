@@ -173,11 +173,8 @@
 
 myStudents = ["Saeed","Jerry","Shehzad","Rizwan","Saeed","moho","Kamran","hammad","arshad"]
 
-print(len(myStudents))
+count = len(myStudents) -1
 
-
-# count = 0
-
-# while count < len(myStudents):
-#       print(myStudents[count])
-#       count = count + 1
+while count >= 0:
+      print( count ,myStudents[count])
+      count = count - 1

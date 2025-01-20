@@ -171,10 +171,23 @@
 #     print(num1)
 #     num1 = num1+1
 
-myStudents = ["Saeed","Jerry","Shehzad","Rizwan","Saeed","moho","Kamran","hammad","arshad"]
+# myStudents = ["Saeed","Jerry","Shehzad","Rizwan","Saeed","moho","Kamran","hammad","arshad"]
 
-count = len(myStudents) -1
+# count = 0
 
-while count >= 0:
-      print( count ,myStudents[count])
-      count = count - 1
+# while count < len(myStudents):
+#       print(myStudents[count])
+#       count = count + 1
+
+#myStudents = ["Saeed","Jerry","Shehzad","Rizwan","Saeed","moho","Kamran","hammad","arshad"]
+
+# print(myStudents)
+
+# myStudents[5] = "Ali"
+# print(myStudents)
+
+# my_students = ("Saeed","Jerry","Shehzad","Rizwan","Saeed","moho","Kamran","hammad","arshad")
+# print(my_students)
+# for el in my_students:
+#       print(el)
+

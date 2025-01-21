@@ -191,3 +191,29 @@
 # for el in my_students:
 #       print(el)
 
+# student = {
+      
+# }
+
+
+# myObject = ["Saeed","Ali","Shaikh",19,30]
+# print(myObject[0])
+# person = {
+# "firstName": "Saeed",
+# "lname": "Ali",
+# "Age": 19,
+# "isAdult": True,
+# }
+# print(person["Age"])
+# for key,value in person.values():
+#       print(f"{key}: {value}")
+      
+      
+# print(len(person))
+     
+
+
+def printHelloWolrd():
+    print("Hello Wolrd")
+
+printHelloWolrd()

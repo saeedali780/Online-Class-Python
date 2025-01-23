@@ -213,7 +213,128 @@
      
 
 
-def printHelloWolrd():
-    print("Hello Wolrd")
+# def table2():
+#     for count in range(1,11):
+#         print(f"2 x {count} = {count*2}")
 
-printHelloWolrd()
+
+# table2()
+# print("Saeed")
+# table2()
+
+# def percentage():
+#     count = 1
+#     while count <= 10:
+#       print(count) 
+#       count = count + 1
+    
+# percentage()
+
+
+# def printHelloWorld(userInput):
+#     print(f" ye hai User Ka Input {userInput}")
+    
+# printHelloWorld(12)
+
+# printHelloWorld("Biryani")
+
+
+
+# def table2():
+#     for count in range(1,11):
+#         print(f"2 x {count} = {count*2}")
+        
+        
+        
+# table2()
+# table2()
+
+# def myFunction(user_name, user2):
+#     print(f"Hello {user_name} {user2}")
+    
+# myFunction("Saeed","Jerry")
+# myFunction("Hooria","Arshad")
+
+# user = input("input kuch bh:")
+# eval(user)
+# def calculator(num1,num2):
+#     return f"{num1} {user} {num2}"
+
+
+# result = calculator(5,5)
+
+
+# print(result)
+
+# Function to add two numbers
+# def add(x, y):
+#     return x + y
+
+# # Function to subtract two numbers
+# def subtract(x, y):
+#     return x - y
+
+# # Function to multiply two numbers
+# def multiply(x, y):
+#     return x * y
+
+# # Function to divide two numbers
+# def divide(x, y):
+#     if y != 0:
+#         return x / y
+#     else:
+#         return "Error! Division by zero."
+
+# # Main program
+# def calculator():
+#     print("Select operation:")
+#     print("1. Add")
+#     print("2. Subtract")
+#     print("3. Multiply")
+#     print("4. Div")
+# while True:
+#         # Take input from the user
+#         choice = input("Enter choice (1/2/3/4): ")
+
+#         # Check if the choice is one of the four options
+#         if choice in ['1', '2', '3', '4']:
+#             num1 = float(input("Enter first number: "))
+#             num2 = float(input("Enter second number: "))
+
+# def sum(num1,num2):
+#     return num1 + num2
+# sumResult = sum(4,6)
+# print(sumResult)
+
+# def sub(num1,num2):
+#     return num1 - num2
+# subResult = sub(10,6)
+# print(subResult)
+
+
+# def multiply(num1,num2):
+#     return num1 * num2
+
+# multiplyResult = multiply(4,2)
+# print(multiplyResult)
+
+# def divide(num1,num2):
+#     return num1 / num2
+
+# divideResult = divide(10,2)
+# print(divideResult)
+
+# def modulus(num1,num2):
+#     return num1 % num2
+
+# modulusResult = modulus(10,3)
+# print(modulusResult)
+
+def calculator():
+     num1 = int(input("Enter first number: "))
+     operator = input("Enter operator (+, -, *, /): ")
+     num2 = int(input("Enter second number: "))
+     if operator == "+":
+         print( num1 + num2)
+     
+calculator()    

@@ -332,9 +332,18 @@
 
 def calculator():
      num1 = int(input("Enter first number: "))
-     operator = input("Enter operator (+, -, *, /): ")
+     operator = input("Enter operator (+, -, *, /, %): ")
      num2 = int(input("Enter second number: "))
-     if operator == "+":
+     if operator == "+" and num1 !=0 and num2 !=0:
          print( num1 + num2)
-     
+     elif operator == "-":
+         print( num1 - num2)
+     elif operator == "*":
+         print( num1 * num2)
+     elif operator == "/":
+         print( num1 / num2) 
+     elif operator == "%":
+         print( num1 % num2)
+     else:
+          print(f"{num1} can't be calculate {num2}")
 calculator()    

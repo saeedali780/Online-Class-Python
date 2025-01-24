@@ -330,20 +330,35 @@
 # modulusResult = modulus(10,3)
 # print(modulusResult)
 
-def calculator():
-     num1 = int(input("Enter first number: "))
-     operator = input("Enter operator (+, -, *, /, %): ")
-     num2 = int(input("Enter second number: "))
-     if operator == "+" and num1 !=0 and num2 !=0:
-         print( num1 + num2)
-     elif operator == "-":
-         print( num1 - num2)
-     elif operator == "*":
-         print( num1 * num2)
-     elif operator == "/":
-         print( num1 / num2) 
-     elif operator == "%":
-         print( num1 % num2)
-     else:
-          print(f"{num1} can't be calculate {num2}")
-calculator()    
+# def calculator():
+#      num1 = int(input("Enter first number: "))
+#      operator = input("Enter operator (+, -, *, /, %): ")
+#      num2 = int(input("Enter second number: "))
+#      if operator == "+" and num1 !=0 and num2 !=0:
+#          print( num1 + num2)
+#      elif operator == "-":
+#          print( num1 - num2)
+#      elif operator == "*":
+#          print( num1 * num2)
+#      elif operator == "/":
+#          print( num1 / num2) 
+#      elif operator == "%":
+#          print( num1 % num2)
+#      else:
+#           print(f"{num1} can't be calculate {num2}")
+# calculator()    
+
+
+myStudents = ["Hamza","Alisha","Gulsher Baloch","Zeeshan","Hooria","Moiz","Muazam","Kamran"]
+
+print(myStudents)
+myStudents.append("Muhammad Ali")
+print(myStudents)
+myStudents.clear()
+print(myStudents)
+myStudents.append("Saeed")
+print(myStudents)
+copyList =  myStudents.copy()
+
+copyList.append("Jerry")
+print(copyList)

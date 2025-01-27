@@ -349,16 +349,24 @@
 # calculator()    
 
 
-myStudents = ["Hamza","Alisha","Gulsher Baloch","Zeeshan","Hooria","Moiz","Muazam","Kamran"]
+# myStudents = ["Hamza","Alisha","Gulsher Baloch","Zeeshan","Hooria","Moiz","Muazam","Kamran"]
 
-print(myStudents)
-myStudents.append("Muhammad Ali")
-print(myStudents)
-myStudents.clear()
-print(myStudents)
-myStudents.append("Saeed")
-print(myStudents)
-copyList =  myStudents.copy()
+# print(myStudents)
+# myStudents.append("Muhammad Ali")
+# print(myStudents)
+# myStudents.clear()
+# print(myStudents)
+# myStudents.append("Saeed")
+# myStudents.append("Khan")
+# myStudents.append("Saeed")
+# print(myStudents)
+# copyList =  myStudents.copy()
+# copyList.append("Jerry")
+# print(copyList)
+# countResult = myStudents.count("Saeed")
+# print(countResult)
 
-copyList.append("Jerry")
-print(copyList)
+myStudents = ["Umer","Kamran","Mehdi","Khurram"]
+myStudentsGirls = ["Hooria","Sharmeen","Kainat","Pakistan Zinda"]
+
+myStudents.extend(myStudentsGirls)

@@ -366,7 +366,14 @@
 # countResult = myStudents.count("Saeed")
 # print(countResult)
 
-myStudents = ["Umer","Kamran","Mehdi","Khurram"]
-myStudentsGirls = ["Hooria","Sharmeen","Kainat","Pakistan Zinda"]
+myStudents = ["Umer","Kamran","Mehdi","Khurram","Hooria","Khurram","Sharmeen","Kainat","Pakistan Zinda"]
 
-myStudents.extend(myStudentsGirls)
+# result =myStudents.index("Mehdi")
+# print(result)
+# myStudents.insert(4,"Saeed")
+# print(myStudents)
+# myStudents.pop(6)
+# print(myStudents)
+# myStudents.remove("Khurram")
+myStudents.sort()
+print(myStudents)

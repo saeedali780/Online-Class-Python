@@ -366,7 +366,6 @@
 # countResult = myStudents.count("Saeed")
 # print(countResult)
 
-myStudents = ["Umer","Kamran","Mehdi","Khurram","Hooria","Khurram","Sharmeen","Kainat","Pakistan Zinda"]
 
 # result =myStudents.index("Mehdi")
 # print(result)
@@ -375,5 +374,24 @@ myStudents = ["Umer","Kamran","Mehdi","Khurram","Hooria","Khurram","Sharmeen","K
 # myStudents.pop(6)
 # print(myStudents)
 # myStudents.remove("Khurram")
-myStudents.sort()
-print(myStudents)
+# myStudents.sort()
+# print(myStudents)
+
+# myStudents = ['gulsher baloch','humail ahmad','iqra  raza ali','irshad khan','kainat rafiq','kamran khan tessori','madiha ghazal','minhil khan','umer ahmad']
+
+# for student in  myStudents:
+#     print(student.title())
+    
+    
+# num1: int = 2
+    
+# num = int(1)
+# myName = str("Saeed")
+# print(num + myName)
+
+# myStudents = ["Umer","Kamran","Mehdi","Khurram","Hooria","Khurram","Sharmeen","Kainat","Pakistan Zinda"]
+# print(myStudents)
+# myStudents.sort()
+# print(myStudents)
+
+myStudents

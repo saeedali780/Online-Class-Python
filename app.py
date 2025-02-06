@@ -394,4 +394,15 @@
 # myStudents.sort()
 # print(myStudents)
 
-myStudents
+# myStudents = {"Khan","Saeed","Jerry","Ali","Saeed",}
+# myStudents[1]= "Saeed"
+
+# multipleItems = {"Saeed",1,"Ali",True}
+# print(len(multipleItems))
+
+# thisset = set(("apple", "banana", "cherry"))
+# print(thisset)
+
+# myStudents = {"Danish","Minahil","Hooria"}
+# myStudents.add(10)
+# print(myStudents)

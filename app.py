@@ -406,3 +406,29 @@
 # myStudents = {"Danish","Minahil","Hooria"}
 # myStudents.add(10)
 # print(myStudents)
+
+
+
+# try:
+# userInput = int(input("Enter The Number Which Table you want: "))
+# for table in range(1,11):
+#     print(f"{userInput} x {table} = {userInput * table}")
+# except:
+    # print("User Ne koi bhand mar diya")
+
+# userInput = int(input("Enter The Number Which Table you want: "))
+# for table in range(1,11):
+#     print(f"{userInput} x {table} = {userInput * table}")
+
+
+# print("Hello Saeed")
+
+from threading import Timer
+
+def delayed_hello():
+    print("Hello after 3 seconds")
+
+# Schedule the function (non-blocking)
+t = Timer(3.0, delayed_hello)
+t.start()
+print("This prints immediately")

@@ -422,13 +422,30 @@
 
 
 # print("Hello Saeed")
+# from threading import Timer
 
-from threading import Timer
+# def delayed_hello():
+#     pint("Hello after 3 seconds")
 
-def delayed_hello():
-    print("Hello after 3 seconds")
+# # Schedule the function (non-blocking)
+# t = Timer(3, delayed_hello)
+# t.start()
+# print("Hello Jerry")
 
-# Schedule the function (non-blocking)
-t = Timer(3.0, delayed_hello)
-t.start()
-print("This prints immediately")
+
+# def callMeSaeed():
+#     print("Hello Saeed")
+
+# callMeSaeed()
+
+# def sum(num1,num2):
+#     num1 = num1
+#     num2 = num2
+#     return num1 + num2
+
+# result = sum(10,20)
+# print(result)
+
+x = lambda num1: num1 * num1
+result = x(2)
+print(result)
